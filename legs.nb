@@ -1,0 +1,140 @@
+(* Content-type: application/vnd.wolfram.mathematica *)
+
+(*** Wolfram Notebook File ***)
+(* http://www.wolfram.com/nb *)
+
+(* CreatedBy='Mathematica 13.2' *)
+
+(*CacheID: 234*)
+(* Internal cache information:
+NotebookFileLineBreakTest
+NotebookFileLineBreakTest
+NotebookDataPosition[       158,          7]
+NotebookDataLength[      4121,        132]
+NotebookOptionsPosition[      3610,        116]
+NotebookOutlinePosition[      4168,        134]
+CellTagsIndexPosition[      4125,        131]
+WindowFrame->Normal*)
+
+(* Beginning of Notebook Content *)
+Notebook[{
+Cell[BoxData[{
+ RowBox[{
+  RowBox[{
+   RowBox[{
+    RowBox[{"x", "+", "y"}], "=", "A"}], ";"}], " ", 
+  "\[IndentingNewLine]"}], "\[IndentingNewLine]", 
+ RowBox[{
+  RowBox[{
+   RowBox[{
+    SuperscriptBox["x", "2"], "+", 
+    SuperscriptBox["w", "2"], "-", 
+    RowBox[{"2", "x", " ", "w", " ", 
+     RowBox[{"Cos", "[", "\[Theta]", "]"}]}]}], "=", 
+   RowBox[{
+    SuperscriptBox["z", "2"], "+", 
+    SuperscriptBox["y", "2"], "-", 
+    RowBox[{"2", "z", " ", "y", " ", 
+     RowBox[{"Cos", "[", "\[Phi]", "]"}]}]}]}], ";"}], "\[IndentingNewLine]", 
+
+ RowBox[{
+  RowBox[{
+   RowBox[{
+    RowBox[{"w", "+", "z"}], "=", "A"}], ";"}], 
+  "\[IndentingNewLine]"}], "\[IndentingNewLine]", 
+ RowBox[{
+  RowBox[{"z", "=", 
+   RowBox[{"A", "-", "w"}]}], ";"}], "\[IndentingNewLine]", 
+ RowBox[{
+  RowBox[{
+   RowBox[{
+    RowBox[{
+     SuperscriptBox["x", "2"], "+", 
+     SuperscriptBox["w", "2"], "-", 
+     RowBox[{"2", "x", " ", "w", " ", 
+      RowBox[{"Cos", "[", "\[Theta]", "]"}]}]}], "=", 
+    RowBox[{
+     SuperscriptBox[
+      RowBox[{"(", 
+       RowBox[{"A", "-", "w"}], ")"}], "2"], "+", 
+     SuperscriptBox["y", "2"], "-", 
+     RowBox[{"2", 
+      RowBox[{"(", 
+       RowBox[{"A", "-", "w"}], ")"}], " ", "y", " ", 
+      RowBox[{"Cos", "[", "\[Phi]", "]"}]}]}]}], ";"}], 
+  "\[IndentingNewLine]"}], "\[IndentingNewLine]", 
+ RowBox[{
+  RowBox[{
+   RowBox[{
+    SuperscriptBox["x", "2"], "+", 
+    SuperscriptBox["w", "2"], "-", 
+    RowBox[{"2", "x", " ", "w", " ", 
+     RowBox[{"Cos", "[", "\[Theta]", "]"}]}]}], "=", 
+   RowBox[{
+    SuperscriptBox["A", "2"], "-", 
+    RowBox[{"2", "A", " ", "w"}], "+", 
+    SuperscriptBox["w", "2"], "+", 
+    SuperscriptBox["y", "2"], "+", 
+    RowBox[{"2", "w", " ", "y", " ", 
+     RowBox[{"Cos", "[", "\[Phi]", "]"}]}], "-", 
+    RowBox[{"2", "A", " ", "y", " ", 
+     RowBox[{"Cos", "[", "\[Phi]", "]"}]}]}]}], 
+  ";"}], "\[IndentingNewLine]", 
+ RowBox[{
+  RowBox[{
+   RowBox[{
+    SuperscriptBox["x", "2"], "+", 
+    RowBox[{"2", "A", " ", "y", " ", 
+     RowBox[{"Cos", "[", "\[Phi]", "]"}]}], "-", 
+    SuperscriptBox["A", "2"], "-", 
+    SuperscriptBox["y", "2"]}], "=", 
+   RowBox[{
+    RowBox[{"2", "w", " ", "y", " ", 
+     RowBox[{"Cos", "[", "\[Phi]", "]"}]}], "+", 
+    RowBox[{"2", "x", " ", "w", " ", 
+     RowBox[{"Cos", "[", "\[Theta]", "]"}]}], "-", 
+    RowBox[{"2", "A", " ", "w"}]}]}], ";"}], "\[IndentingNewLine]", 
+ RowBox[{
+  RowBox[{
+   FractionBox[
+    RowBox[{
+     SuperscriptBox["x", "2"], "+", 
+     RowBox[{"2", "A", " ", "y", " ", 
+      RowBox[{"Cos", "[", "\[Phi]", "]"}]}], "-", 
+     SuperscriptBox["A", "2"], "-", 
+     SuperscriptBox["y", "2"]}], 
+    RowBox[{
+     RowBox[{"2", "y", " ", 
+      RowBox[{"Cos", "[", "\[Phi]", "]"}]}], "+", 
+     RowBox[{"2", "x", " ", 
+      RowBox[{"Cos", "[", "\[Theta]", "]"}]}], "-", 
+     RowBox[{"2", "A"}]}]], "=", "w"}], ";"}]}], "Input",
+ CellChangeTimes->{{3.94112098313552*^9, 3.9411210855253572`*^9}, {
+  3.941121151620264*^9, 
+  3.9411213669143744`*^9}},ExpressionUUID->"7513f87f-8705-49ea-a4e9-\
+c5f8fc87dace"]
+},
+WindowSize->{606., 665.25},
+WindowMargins->{{417, Automatic}, {18.75, Automatic}},
+FrontEndVersion->"13.2 for Linux x86 (64-bit) (January 30, 2023)",
+StyleDefinitions->FrontEnd`FileName[{$RootDirectory, "home", "valentin", 
+   ".Mathematica", "SystemFiles", "FrontEnd", "StyleSheets"}, 
+  "maTHEMEatica.nb", CharacterEncoding -> "UTF-8"],
+ExpressionUUID->"97bff1ba-5004-4ba7-9cc7-20add57ad623"
+]
+(* End of Notebook Content *)
+
+(* Internal cache information *)
+(*CellTagsOutline
+CellTagsIndex->{}
+*)
+(*CellTagsIndex
+CellTagsIndex->{}
+*)
+(*NotebookFileOutline
+Notebook[{
+Cell[558, 20, 3048, 94, 269, "Input",ExpressionUUID->"7513f87f-8705-49ea-a4e9-c5f8fc87dace"]
+}
+]
+*)
+
